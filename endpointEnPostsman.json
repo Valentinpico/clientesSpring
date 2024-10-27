@@ -1,0 +1,638 @@
+{
+	"info": {
+		"_postman_id": "c770d93e-5826-463e-9789-5521b96b77b8",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38811243"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/reporte?clienteId=38&fechaInicio=2024-10-27T00:00:00&fechaFin=2024-12-31T23:59:59",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/reporte?clienteId=38&fechaInicio=2024-10-27T00:00:00&fechaFin=2024-12-31T23:59:59",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"reporte"
+					],
+					"query": [
+						{
+							"key": "clienteId",
+							"value": "38"
+						},
+						{
+							"key": "fechaInicio",
+							"value": "2024-10-27T00:00:00"
+						},
+						{
+							"key": "fechaFin",
+							"value": "2024-12-31T23:59:59"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/reporte?clienteId=37&fechaInicio=2023-01-01T00:00:00&fechaFin=2023-12-31T23:59:59",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/reporte?clienteId=37&fechaInicio=2023-01-01T00:00:00&fechaFin=2023-12-31T23:59:59",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"reporte"
+					],
+					"query": [
+						{
+							"key": "clienteId",
+							"value": "37"
+						},
+						{
+							"key": "fechaInicio",
+							"value": "2023-01-01T00:00:00"
+						},
+						{
+							"key": "fechaFin",
+							"value": "2023-12-31T23:59:59"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/reporte?clienteId=1&fechaInicio=2023-01-01T00:00:00&fechaFin=2023-12-31T23:59:59",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/reporte?clienteId=1&fechaInicio=2023-01-01T00:00:00&fechaFin=2023-12-31T23:59:59",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"reporte"
+					],
+					"query": [
+						{
+							"key": "clienteId",
+							"value": "1"
+						},
+						{
+							"key": "fechaInicio",
+							"value": "2023-01-01T00:00:00"
+						},
+						{
+							"key": "fechaFin",
+							"value": "2023-12-31T23:59:59"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"585545\",\r\n    \"tipoCuenta\": \"Corriente\",\r\n    \"saldoInicial\": 1000,\r\n    \"estado\": true,\r\n    \"clienteId\": 37\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"585545\",\r\n    \"tipoCuenta\": \"Corriente\",\r\n    \"saldoInicial\": 1000,\r\n    \"estado\": true,\r\n    \"clienteId\": 37\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"585545\",\r\n    \"tipoCuenta\": \"Corriente\",\r\n    \"saldoInicial\": 1000,\r\n    \"estado\": true,\r\n    \"clienteId\": 37\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoMovimiento\": \"retiro\",\r\n    \"valor\": 540,\r\n    \"cuenta\": {\r\n        \"numeroCuenta\": \"496825\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoMovimiento\": \"retiro\",\r\n    \"valor\": 540,\r\n    \"cuenta\": {\r\n        \"numeroCuenta\": \"496825\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoMovimiento\": \"retiro\",\r\n    \"valor\": 540,\r\n    \"cuenta\": {\r\n        \"numeroCuenta\": \"496825\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoMovimiento\": \"deposito\",\r\n    \"valor\": 150,\r\n    \"cuenta\": {\r\n        \"numeroCuenta\": \"495878\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoMovimiento\": \"deposito\",\r\n    \"valor\": 600,\r\n    \"cuenta\": {\r\n        \"numeroCuenta\": \"225487\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/movimiento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tipoMovimiento\": \"retiro\",\r\n    \"valor\": 575,\r\n    \"cuenta\": {\r\n        \"numeroCuenta\": \"478758\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/movimiento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"movimiento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"585545\",\r\n    \"tipoCuenta\": \"Corriente\",\r\n    \"saldoInicial\": 1000,\r\n    \"estado\": true,\r\n    \"clienteId\": 37\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"225487\",\r\n    \"tipoCuenta\": \"Corriente\",\r\n    \"saldoInicial\": 100,\r\n    \"estado\": true,\r\n    \"clienteId\": 38\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"496825\",\r\n    \"tipoCuenta\": \"Ahorros\",\r\n    \"saldoInicial\": 540,\r\n    \"estado\": true,\r\n    \"clienteId\": 38\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"495878\",\r\n    \"tipoCuenta\": \"Ahorros\",\r\n    \"saldoInicial\": 0,\r\n    \"estado\": true,\r\n    \"clienteId\": 39\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/cuenta",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numeroCuenta\": \"478758\",\r\n    \"tipoCuenta\": \"Ahorros\",\r\n    \"saldoInicial\": 2000,\r\n    \"estado\": true,\r\n    \"clienteId\": 37\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/cuenta",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cuenta"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"nombre\": \"Juan Osorio\",\r\n    \"genero\": \"MASCULINO\",\r\n    \"edad\": 21,\r\n    \"identificacion\": \"1231234234\",\r\n    \"direccion\": \"13 junio y Equinoccial\",\r\n    \"telefono\": \"098874587\",\r\n    \"contraseña\": \"1245\",\r\n    \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"nombre\": \"Marianela Montalvo\",\r\n    \"genero\": \"FEMENINO\",\r\n    \"edad\": 21,\r\n    \"identificacion\": \"1231234234\",\r\n    \"direccion\": \"Amazonas y NNUU\",\r\n    \"telefono\": \"097548965\",\r\n    \"contraseña\": \"5678\",\r\n    \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"nombre\": \"Jose Lema\",\r\n    \"genero\": \"MASCULINO\",\r\n    \"edad\": 21,\r\n    \"identificacion\": \"1231234234\",\r\n    \"direccion\": \"Otavalo sn y principal\",\r\n    \"telefono\": \"098254785\",\r\n    \"contraseña\": \"1234\",\r\n    \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cliente",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
